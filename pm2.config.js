@@ -1,5 +1,5 @@
-{
-  "apps":[
+module.exports = {
+  apps:[
     {
       "name":"RealWorld",
       "script":"npm",
