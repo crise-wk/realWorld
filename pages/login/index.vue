@@ -28,7 +28,7 @@
             </fieldset>
             <fieldset class="form-group" >
               <input
-                :v-model="user.email"
+                v-model="user.email"
                 class="form-control form-control-lg"
                 type="email"
                 placeholder="Email"
@@ -37,7 +37,7 @@
             </fieldset>
             <fieldset class="form-group">
               <input
-                :v-model="user.password"
+                v-model="user.password"
                 class="form-control form-control-lg"
                 type="password"
                 required
